@@ -1,10 +1,21 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { BrowserModule } from "@angular/platform-browser";
+import { Routes, RouterModule } from "@angular/router";
 
-const routes: Routes = [];
+import { LandingpageComponent } from "./pages/landingpage/landingpage.component";
+
+const routes: Routes = [
+  { path: "", component: LandingpageComponent },
+  { path: "**", redirectTo: "" }
+];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [
+    CommonModule,
+    BrowserModule,
+    RouterModule.forRoot(routes)
+  ],
+  exports: []
 })
 export class AppRoutingModule { }
