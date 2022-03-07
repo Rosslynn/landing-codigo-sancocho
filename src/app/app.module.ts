@@ -18,18 +18,15 @@ import { CarouselModule } from "ngx-bootstrap/carousel";
 import { ModalModule } from "ngx-bootstrap/modal";
 
 import { PagesModule } from "./pages/pages.module";
+import { LandingpageComponent } from "./pages/landingpage/landingpage.component";
 
-import { IndexComponent } from "./pages/index/index.component";
-import { ProfilepageComponent } from "./pages/examples/profilepage/profilepage.component";
-import { RegisterpageComponent } from "./pages/examples/registerpage/registerpage.component";
-import { LandingpageComponent } from "./pages/examples/landingpage/landingpage.component";
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
     // IndexComponent,
     // ProfilepageComponent,
     // RegisterpageComponent,
-    // LandingpageComponent
+    LandingpageComponent
   ],
   imports: [
     BrowserAnimationsModule,
