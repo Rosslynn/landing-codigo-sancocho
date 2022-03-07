@@ -27,13 +27,10 @@ Una vez instalado Angular y Node.js realizar los pasos descritos a continuación
 
 Prefijos de las ramas
 
-bugfix -> Solución a un issue
-
-feature -> Nueva funcionaldiad, un requerimiento oa umentoden el desarrollo
-
-hotfix -> Solucion de un issue en producción
-
-release -> Rama de lanzamientos de versiones
+* bugfix -> Solución a un issue
+* feature -> Nueva funcionaldiad, un requerimiento oa umentoden el desarrollo
+* hotfix -> Solucion de un issue en producción
+* release -> Rama de lanzamientos de versiones
 
 1. Asegurarse de estar parado en la rama **development**, en ese sentido escribir en la terminal `git checkout development` 
 2. Al momento de crear una rama esta debe ir con el prefijo correspondiente, por ejemplo: feature/estilos-cabecera
