@@ -19,7 +19,7 @@ Una vez instalado Angular y Node.js realizar los pasos descritos a continuación
 
 1. Hacer un **Fork** del proyecto
 1. Después de hacer **Fork** clonar el proyecto desde su repositorio
-2. Abrir la carpeta del proyecto, escribir `npm install` y persionar __*Enter*__
+2. Abrir la carpeta del proyecto, escribir `npm install` y persionar __*Enter.*__ Si no funciona con `npm install` utilizar `npm install --legacy-peer-deps` 
 3. Una vez instaladas las dependencias escribir `ng serve -o` para abrir el proyecto y listo, empezar a trabajar
 
 
